@@ -17,6 +17,7 @@
         <module>factory</module>
         <module>strategy</module>
         <module>template</module>
+        <module>adapter</module>
     </modules>
 
     <properties>
