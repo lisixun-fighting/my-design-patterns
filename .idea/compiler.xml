@@ -12,11 +12,26 @@
         <module name="template" />
         <module name="proxy" />
         <module name="factory" />
+        <module name="decorator" />
         <module name="adapter" />
         <module name="jdbc" />
         <module name="strategy" />
         <module name="prototype" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="adapter" options="-parameters" />
+      <module name="decorator" options="-parameters" />
+      <module name="delegate" options="-parameters" />
+      <module name="factory" options="-parameters" />
+      <module name="jdbc" options="-parameters" />
+      <module name="prototype" options="-parameters" />
+      <module name="proxy" options="-parameters" />
+      <module name="singleton" options="-parameters" />
+      <module name="strategy" options="-parameters" />
+      <module name="template" options="-parameters" />
+    </option>
   </component>
 </project>
