@@ -12,6 +12,7 @@
         <module name="template" />
         <module name="proxy" />
         <module name="factory" />
+        <module name="observer" />
         <module name="decorator" />
         <module name="adapter" />
         <module name="jdbc" />
@@ -27,6 +28,7 @@
       <module name="delegate" options="-parameters" />
       <module name="factory" options="-parameters" />
       <module name="jdbc" options="-parameters" />
+      <module name="observer" options="-parameters" />
       <module name="prototype" options="-parameters" />
       <module name="proxy" options="-parameters" />
       <module name="singleton" options="-parameters" />

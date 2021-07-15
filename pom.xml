@@ -24,6 +24,7 @@
         <module>template</module>
         <module>adapter</module>
         <module>decorator</module>
+        <module>observer</module>
     </modules>
 
     <properties>

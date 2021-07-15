@@ -4,6 +4,7 @@ import org.example.adapter.login.ResultMsg;
 import org.example.adapter.login.SignInService;
 
 public class PassportForThirdAdapter extends SignInService implements IPassportForThird {
+
     @Override
     public ResultMsg loginForQQ(String id) {
         return processLogin(id, LoginForQQAdapter.class);
