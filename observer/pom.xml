@@ -16,4 +16,12 @@
         <maven.compiler.target>9</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava-testlib</artifactId>
+            <version>23.0</version>
+        </dependency>
+    </dependencies>
+
 </project>
